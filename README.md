@@ -2,9 +2,11 @@ This repository features code and figures for the manuscript on "Assessing the d
 
 The 'Code' folder features several python codes ran with the module parcels (for more information, see https://oceanparcels.org/).
 
-This consists of 3 codes:
+This consists of 4 codes:
 - WTPO_d50_FAD.py - A virtual dFAD simulation with depth averaged currents (from MOi dataset)
 - WTPO_d0_FAD.py  - A virtual particle simulation with only surface currents (from MOi dataset)
-- AnalysisAndVisualisation.ipynb - analysis on data generated from previous scripts and plotting of figures
+- Processing_metrics.ipynb - A notebook file that computes four different metrics (displacement, travel distance, distance ratio, loopiness)
+  based on the simulated trajectories and exports them as .nc files
+- Analysis and Plot Metrics.ipynb - A notebook file that performs data analysis on the previously calculated metrics and plots the outcome
 
-The 'Figures' folder features the figures from the manuscript (and several more) in pdf format.
+The 'Figures' folder features the figures from the manuscript of the simulations in pdf format.
